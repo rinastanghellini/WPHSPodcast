@@ -4,7 +4,8 @@ font-size: 90px;
 font-style: normal;
 font-variant: normal;
 font-weight: 700;
-line-height: 26.4px; }
+line-height: 100%;
+width: 100%}
 
 body{ font-family: "Arial Narrow",
 Arial, sans-serif;

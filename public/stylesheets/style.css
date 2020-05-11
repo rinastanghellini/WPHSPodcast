@@ -16,9 +16,15 @@ font-weight: 100;
 line-height: 26.4px; }
 
 .jumbotron {
-  background-color: orange;
+  background-color: #FF8C00;
 }
 
 table{
   border: 10px;
+}
+
+.navbar-brand{
+  width: 100%;
+  content="width=device-width";
+
 }

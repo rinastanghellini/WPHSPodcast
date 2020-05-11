@@ -177,13 +177,8 @@ app.get('/chat',(req,res,next)=>{
 app.get('/griddemo', function(req, res, next) {
   res.render('griddemo',{title:"Grid Demo"});
 });
-
 app.get('/bmidemo', (req, res) => {
   res.render('bmidemo',{title:"BMI Demo"});
-});
-
-app.get('/SuggestGeneral', (req, res, next) => {
-  res.render('SuggestGeneral',{title:"SuggestGeneral"});
 });
 
 

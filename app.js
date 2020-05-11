@@ -182,7 +182,9 @@ app.get('/bmidemo', (req, res) => {
   res.render('bmidemo',{title:"BMI Demo"});
 });
 
-
+app.get('/SuggestGeneral', (req, res, next) => {
+  res.render('SuggestGeneral',{title:"SuggestGeneral"});
+});
 
 
 

@@ -13,3 +13,11 @@ font-style: normal;
 font-variant: normal;
 font-weight: 100;
 line-height: 26.4px; }
+
+.jumbotron {
+  background-color: orange;
+}
+
+table{
+  border: 10px;
+}

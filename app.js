@@ -206,7 +206,7 @@ app.get('/griddemo', function(req, res, next) {
 
 
 app.get('/bmidemo', (req, res) => {
-  res.render('bmidemo',{title:"BMI Demo"});
+  res.render('bmidemo' , {title:"Podcasts"};
 });
 
 

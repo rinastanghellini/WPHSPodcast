@@ -210,22 +210,22 @@ app.post('/saveForumComment',forumPostController.saveForumComment)
 
 
 
-app.get('/griddemo', function(req, res, next) {
-  res.render('griddemo',{title:"Grid Demo"});
+app.get('/Runners', function(req, res, next) {
+  res.render('Runners',{title:"Runners"});
 });
 
 
 
-app.get('/bmidemo', (req, res) => {
-  res.render('bmidemo',{title:"BMI Demo"});
+app.get('/Podcasts', (req, res) => {
+  res.render('Podcasts',{title:"Podcasts"});
 });
 
 
 
 // myform demo ...
 
-app.get('/myform', function(req, res, next) {
-  res.render('myform',{title:"Form Demo"});
+app.get('/Developers', function(req, res, next) {
+  res.render('Developers',{title:"Developers"});
 });
 
 app.post('/processform', commentController.saveComment)

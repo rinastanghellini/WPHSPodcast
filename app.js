@@ -207,6 +207,9 @@ app.get('/showPostComments/:id',
 
 app.post('/saveForumComment',forumPostController.saveForumComment)
 
+app.get('/New', function(req, res, next) {
+  res.render('New',{title:"New"});
+});
 
 
 
@@ -224,8 +227,8 @@ app.get('/Podcasts', (req, res) => {
 
 // myform demo ...
 
-app.get('/Developers', function(req, res, next) {
-  res.render('Developers',{title:"Developers"});
+app.get('/Develop', function(req, res, next) {
+  res.render('Develop',{title:"Developers"});
 });
 
 app.post('/processform', commentController.saveComment)

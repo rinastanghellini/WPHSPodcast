@@ -175,6 +175,10 @@ app.get('/chat',(req,res,next)=>{
   res.render('chat',{title:"ChatDemo"});
 })
 
+app.get('/General',(req,res,next)=>{
+  res.render('General',{title:"General Suggestions"});
+})
+
 app.get('/quiz2',quiz2Controller.getAllMovieRatings)
 
 

@@ -171,6 +171,13 @@ app.get('/', function(req, res, next) {
   res.render('index',{title:"YellowCartwheel"});
 });
 
+app.get('/Episodes', function(req, res, next) {
+  res.render('Episodes',{title:"Episodes"});
+});
+app.get('/Topic', function(req, res, next) {
+  res.render('Topic',{title:"Suggest a Topic"});
+});
+
 app.get('/chat',(req,res,next)=>{
   res.render('chat',{title:"ChatDemo"});
 })

@@ -177,7 +177,6 @@ app.get('/Episodes', function(req, res, next) {
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });
-
 app.get('/chat',(req,res,next)=>{
   res.render('chat',{title:"ChatDemo"});
 })

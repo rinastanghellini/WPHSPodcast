@@ -19,8 +19,9 @@ line-height: 26.4px; }
   background-color: #FF8C00;
 }
 
-table{
-  border: 10px;
+#scroll{
+  height: 1000px;
+  overflow-y: scroll;
 }
 
 .navbar-brand{

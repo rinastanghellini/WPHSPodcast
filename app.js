@@ -177,8 +177,11 @@ app.get('/Episodes', function(req, res, next) {
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });
-app.get('/chat',(req,res,next)=>{
-  res.render('chat',{title:"ChatDemo"});
+app.get('/Rina', function(req, res, next) {
+  res.render('Rina',{title:"Rina Stanghellini"});
+});
+app.get('/Website',(req,res,next)=>{
+  res.render('Website',{title:"Website"});
 })
 
 app.get('/Specific',(req,res,next)=>{

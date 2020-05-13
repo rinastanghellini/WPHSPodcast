@@ -168,22 +168,22 @@ app.use(function(req,res,next){
 
 
 app.get('/', function(req, res, next) {
-  res.render('index',{title:"YWPHS Podcasts"});
+  res.render('index',{title:"The Run Around"});
 });
 
 app.get('/Episodes', function(req, res, next) {
   res.render('Episodes',{title:"Episodes"});
 });
-app.get('/Topic', function(req, res, next) {
-  res.render('Topic',{title:"Suggest a Topic"});
+app.get('/General', function(req, res, next) {
+  res.render('General',{title:"General Suggestions"});
 });
 
 app.get('/chat',(req,res,next)=>{
   res.render('chat',{title:"ChatDemo"});
 })
 
-app.get('/General',(req,res,next)=>{
-  res.render('General',{title:"General Suggestions"});
+app.get('/Specific',(req,res,next)=>{
+  res.render('Specific',{title:"Specific Suggestions"});
 })
 
 app.get('/quiz2',quiz2Controller.getAllMovieRatings)

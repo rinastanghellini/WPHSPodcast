@@ -9,6 +9,15 @@ img{
   max-width: 100%;
 height: auto;
 }
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 
     <div class="jumbotron">
@@ -16,24 +25,18 @@ height: auto;
       </div>
         <p>View the schedule for upcoming podcasts.
           In this page, sign up for upcoming podcasts,
-           submit questions, and submit suggestions.
+           submit questions for specific episodes,
+           and submit suggestions for specific episodes.
+           <br>
+           <br>
            Before signing up for a podcast,
            please read the "Runners"
            Page underneath the "Get Involved" tab.</p>
-    </div>
-
-    <div>
-      <table class="table table-large" style="width:100%">
-        <tr>
-          <th>Episode title</th>
-          <th>Date To Be Recorded</th>
-          <th>Participants</th>
-          <th>Submit Questions</th>
-        </tr>
-        <tr>
-        </tr>
-
-      </table>
-    </div>
+           <div class="row">
+             <div class="column"> <iframe height="1000" width="100%" src="https://anchor.fm/therunaround"> </iframe></div>
+             <div class="column">View the peopel here</div>
+           </div>
+<br>
+<br>
 
 <%- include('bootfooter') -%>

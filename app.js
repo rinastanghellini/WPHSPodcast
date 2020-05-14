@@ -184,8 +184,8 @@ app.get('/Website',(req,res,next)=>{
   res.render('Website',{title:"Website"});
 })
 
-app.get('/Specific',(req,res,next)=>{
-  res.render('Specific',{title:"Specific Suggestions"});
+app.get('/specific',(req,res,next)=>{
+  res.render('specific',{title:"Specific Suggestions"});
 })
 
 app.get('/quiz2',quiz2Controller.getAllMovieRatings)

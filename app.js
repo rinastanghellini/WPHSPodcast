@@ -229,10 +229,6 @@ app.get('/Podcasts', (req, res) => {
 
 // myform demo ...
 
-app.get('/Develop', function(req, res, next) {
-  res.render('Develop',{title:"Developers"});
-});
-
 app.post('/processform', commentController.saveComment)
 
 app.get('/showComments', commentController.getAllComments)

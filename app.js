@@ -149,6 +149,8 @@ app.get('/editProfile',isLoggedIn, (req,res)=>{
   res.render('editProfile')
 })
 
+
+
 app.get('/profiles', isLoggedIn, profileController.getAllProfiles);
 app.get('/showProfile/:id', isLoggedIn, profileController.getOneProfile);
 
@@ -176,6 +178,9 @@ app.get('/Episodes', function(req, res, next) {
 });
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
+});
+app.get('/question', function(req, res, next) {
+  res.render('question',{title:"Submit Questions"});
 });
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});

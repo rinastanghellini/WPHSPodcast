@@ -182,6 +182,9 @@ app.get('/General', function(req, res, next) {
 app.get('/question', function(req, res, next) {
   res.render('question',{title:"Submit Questions"});
 });
+app.get('/facts', function(req, res, next) {
+  res.render('facts',{title:"Submit Running Facts& Advice"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });

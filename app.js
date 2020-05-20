@@ -176,6 +176,9 @@ app.get('/', function(req, res, next) {
 app.get('/Episodes', function(req, res, next) {
   res.render('Episodes',{title:"Episodes"});
 });
+app.get('/ep1', function(req, res, next) {
+  res.render('ep1',{title:"Mind Over Matter"});
+});
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });

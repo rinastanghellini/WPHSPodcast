@@ -5,12 +5,31 @@
 <style>
 h1 {text-align: center;}
 p {text-align: center;}
-img{
+img {
   max-width: 100%;
 height: auto;
 }
-
 a {
+  text-align: center;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
   text-align: center;
 }
 
@@ -20,19 +39,20 @@ a {
     <img src="/images/recorded.png">
       </div>
 
-        <p>Find all podcasts recorded!</p>
-
-<script async defer onload="redcircleIframe();" src="https://api.podcache.net/embedded-player/sh/e397ff23-5b91-4271-a8f4-43363fa175a8/ep/e5000870-901e-4a50-82d9-9a43493ecbf4">
-</script>
-
-
+        <h1>Episode 1</h1>
+<br>
+<iframe src="https://anchor.fm/therunaround/embed/episodes/Mind-Over-Matter-eeb19a/a-a28h515" height="200px" width="100%" frameborder="0" scrolling="no"></iframe>
 <div class="redcirclePlayer-e5000870-901e-4a50-82d9-9a43493ecbf4"></div>
 
 <p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: oranage;">Powered by <a class="redcircle-link" href="https://redcircle.com?utm_source=rc_embedded_player&utm_medium=web&utm_campaign=embedded_v1">RedCircle</a></p>
-
+<p> Episode can also be found on <a href="https://open.spotify.com/show/47gHtxKAKKnlfnZ9Ad58hY" target="_blank"> Spotify.</a>
 <h1> Podcast Notes/References </h1>
+<br>
+<p> The music used in this podcast was Scott Holmes "Upbeat Party." "Upbeat Party" is in the "Inspiring & Upbeat Music" album. Inspiring & Upbeat Music by Scott Holmes is licensed under a Attribution-NonCommercial License. </p>
 
-<p> The music used in this podcast was Scott Holmes "Upbeat Party"</p>
+<div id="license">
+<a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank"><img align="middle" src="/images/lic.png"></a>
+</div>
 
 <br>
 <br
@@ -42,14 +62,14 @@ a {
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Coach Fitz's Additional Reading
         </button>
       </h5>
     </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-        Links
+        <a class="text-dark" href="https://digest.bps.org.uk/2017/04/19/10-ways-that-running-changes-your-mind-and-brain/" target="_blank"> "10 Ways Running Changes Your Mind and Your Brain" from Research Digest</a>
       </div>
     </div>
   </div>
@@ -93,11 +113,162 @@ a {
     </div>
     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
       <div class="card-body">
-        <p> Click Directions under Menu to see insider commentary on the Bloomingdale run!</p> </div>
-          <div style="overflow:hidden;position:relative;"><div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"/><iframe name="plotaroute_map_1132191" src="https://www.plotaroute.com/embedmap/1132191?units=mi" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div><p style="margin-top:8px;font-family:Helvetica Neue,Helvetica,arial;font-size:11px;">Route map for <a href="https://www.plotaroute.com/route/1132191?units=km" target="_blank" title="View this route map on plotaroute.com">Bloomingdales</a> by <a href="https://www.plotaroute.com/userprofile/303357" target="_blank" title="View this person's profile on plotaroute.com">Rina Stanghellini</a> on <a href="https://www.plotaroute.com" target="_blank" title="plotaroute.com - free route planner for walking, running, cycling and more">plotaroute.com</a></p></div>
+        <p> Click play, then click Directions under Menu to see insider commentary on the Bloomingdale run! You can also view information about the hills, and calculate how long it would take you to run it!</p> </div>
+          <div style="overflow:hidden;position:relative;"><div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"/><iframe name="plotaroute_map_1132191" src="https://www.plotaroute.com/embedmap/1132191?units=mi" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:80%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div><p style="margin-top:8px;font-family:Helvetica Neue,Helvetica,arial;font-size:11px;">Route map for <a href="https://www.plotaroute.com/route/1132191?units=km" target="_blank" title="View this route map on plotaroute.com">Bloomingdales</a> by <a href="https://www.plotaroute.com/userprofile/303357" target="_blank" title="View this person's profile on plotaroute.com">Rina Stanghellini</a> on <a href="https://www.plotaroute.com" target="_blank" title="plotaroute.com - free route planner for walking, running, cycling and more">plotaroute.com</a></p></div>
     </div>
   </div>
 
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Rina and Bella Picture
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        This is a picture of Rina and Bella after their first XC meet! Bella has given permission for this photo to be posted. <br> <br>
+      <img src="/images/rinaandbella.PNG"> </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingsix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+        Rina's Notes
+        </button>
+      </h5>
+    </div>
+    <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordion">
+      <div class="card-body">
+These are pictures of Rina's notes for the episode!   <br>   <img src="/images/rinanotes.PNG"> </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingseven">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+      Bella's Notes
+        </button>
+      </h5>
+    </div>
+    <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordion">
+      <div class="card-body">
+These are pictures of Bella's notes for the episode! She has given permission for this photo to be on the website. <br>    <img src="/images/bellanotes.png"> </div>
+<br><br>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingeight">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseseight">
+      Bella's Encouraging Post-it Notes on the Lockers
+        </button>
+      </h5>
+    </div>
+    <div id="collapseeight" class="collapse" aria-labelledby="headingseight" data-parent="#accordion">
+      <div class="card-body">
+<p> So this actually did not happen during the 2018 XC Season, but actually the 2019 XC Season. But I mentioned it, so I'll put it here.
+  Bella was so sweet, she wrote out probably at least 20 post-it notes and came down to our locker room early, or stayed late, I don't remember.
+  She hung them up on each of our lockers. We at first thought it was Coach Fitz, but we were touched when we learned it was Bella! I tried to take pictures of all of them, but
+  I think I missed several. I kept mine up for the whole season, as did the rest of the girls.</p>
+        <div class="gallery">
+          <a target="_blank" href="/images/e.png">
+            <img src="/images/e.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/fd.png">
+            <img src="/images/fd.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/b.png">
+            <img src="/images/b.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/c.png">
+            <img src="/images/c.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/d.png">
+            <img src="/images/d.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/f.png">
+            <img src="/images/f.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/g.png">
+            <img src="/images/g.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/h.png">
+            <img src="/images/h.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/i.png">
+            <img src="/images/i.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/j.png">
+            <img src="/images/j.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/k.png">
+            <img src="/images/k.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/l.png">
+            <img src="/images/l.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/m.png">
+            <img src="/images/m.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/n.png">
+            <img src="/images/n.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/o.png">
+            <img src="/images/o.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/p.png">
+            <img src="/images/p.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/q.png">
+            <img src="/images/q.png"width="600" height="400">
+          </a>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="/images/r.png">
+            <img src="/images/r.png"width="600" height="400">
+          </a>
+        </div>
+<br><br>
+    </div>
+  </div>
 
 
 <br>

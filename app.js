@@ -179,6 +179,9 @@ app.get('/Episodes', function(req, res, next) {
 app.get('/ep1', function(req, res, next) {
   res.render('ep1',{title:"Mind Over Matter"});
 });
+app.get('/ep2', function(req, res, next) {
+  res.render('ep2',{title:"Coach's Corner: Coach Singleton"});
+});
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });

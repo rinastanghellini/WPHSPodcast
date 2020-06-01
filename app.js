@@ -185,6 +185,9 @@ app.get('/ep2', function(req, res, next) {
 app.get('/ep3', function(req, res, next) {
   res.render('ep3',{title:"Big Red"});
 });
+app.get('/ep4', function(req, res, next) {
+  res.render('ep4',{title:"Deep Thoughts"});
+});
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });

@@ -4,6 +4,7 @@ font-size: 10vw;
 font-style: normal;
 font-variant: normal;
 font-weight: 700;
+line-height: 20em;
 }
 
 body{ font-family: "Arial Narrow",
@@ -12,6 +13,7 @@ font-size: 5vw;
 font-style: normal;
 font-variant: normal;
 font-weight: 100;
+line-height: 20em;
 }
 
 .jumbotron {

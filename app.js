@@ -188,6 +188,9 @@ app.get('/ep3', function(req, res, next) {
 app.get('/ep4', function(req, res, next) {
   res.render('ep4',{title:"Deep Thoughts"});
 });
+app.get('/ep5', function(req, res, next) {
+  res.render('ep5',{title:"Coach's Corner: Coach Fitzsimons"});
+});
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });

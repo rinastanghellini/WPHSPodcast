@@ -195,7 +195,10 @@ app.get('/ep6', function(req, res, next) {
   res.render('ep6',{title:"Coach's Corner: Coach Fitzsimons"});
 });
 app.get('/ep7', function(req, res, next) {
-  res.render('ep7',{title:"Coach's Corner: Coach Fitzsimons"});
+  res.render('ep7',{title:"Rina's Rambles"});
+});
+app.get('/ep8', function(req, res, next) {
+  res.render('ep8',{title:"College Recruiting and Running"});
 });
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});

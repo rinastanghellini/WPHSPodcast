@@ -200,6 +200,9 @@ app.get('/ep7', function(req, res, next) {
 app.get('/ep8', function(req, res, next) {
   res.render('ep8',{title:"College Recruiting and Running"});
 });
+app.get('/ep9', function(req, res, next) {
+  res.render('ep9',{title:"Coach's Corner: Coach Agudelo"});
+});
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });
@@ -220,26 +223,26 @@ app.get('/specific',(req,res,next)=>{
   res.render('specific',{title:"Specific Suggestions"});
 })
 
-app.get('/quiz2',quiz2Controller.getAllMovieRatings)
+// app.get('/quiz2',quiz2Controller.getAllMovieRatings)
+//
+//
+// app.get('/forum',forumPostController.getAllForumPosts)
+//
+// app.post('/forum',forumPostController.saveForumPost)
+//
+// app.post('/forumDelete',forumPostController.deleteForumPost)
 
-
-app.get('/forum',forumPostController.getAllForumPosts)
-
-app.post('/forum',forumPostController.saveForumPost)
-
-app.post('/forumDelete',forumPostController.deleteForumPost)
-
-app.get('/showPost/:id',
-        forumPostController.attachAllForumComments,
-        forumPostController.showOnePost)
-
-app.get('/showPostComments/:id',
-        forumPostController.attachAllForumComments,
-        (req,res)=>{
-          res.render('forumPostComments',{title:"comments"})
-        })
-
-app.post('/saveForumComment',forumPostController.saveForumComment)
+// app.get('/showPost/:id',
+//         forumPostController.attachAllForumComments,
+//         forumPostController.showOnePost)
+//
+// app.get('/showPostComments/:id',
+//         forumPostController.attachAllForumComments,
+//         (req,res)=>{
+//           res.render('forumPostComments',{title:"comments"})
+//         })
+//
+// app.post('/saveForumComment',forumPostController.saveForumComment)
 
 app.get('/New', function(req, res, next) {
   res.render('New',{title:"New"});
@@ -251,29 +254,25 @@ app.get('/Runners', function(req, res, next) {
   res.render('Runners',{title:"Runners"});
 });
 
-
-
 app.get('/Podcasts', (req, res) => {
   res.render('Podcasts',{title:"Podcasts"});
 });
 
+// // myform demo ...
+//
+// app.post('/processform', commentController.saveComment)
+//
+// app.get('/showComments', commentController.getAllComments)
+// // app.use('/', indexRouter);  // this is how we use a router to handle the / path
+// // but here we are more direct
 
-
-// myform demo ...
-
-app.post('/processform', commentController.saveComment)
-
-app.get('/showComments', commentController.getAllComments)
-// app.use('/', indexRouter);  // this is how we use a router to handle the / path
-// but here we are more direct
-
-app.get('/showComment/:id', commentController.getOneComment)
-
-function processFormData(req,res,next){
-  res.render('formdata',
-     {title:"Form Data",url:req.body.url, coms:req.body.theComments})
-}
-
+// app.get('/showComment/:id', commentController.getOneComment)
+//
+// function processFormData(req,res,next){
+//   res.render('formdata',
+//      {title:"Form Data",url:req.body.url, coms:req.body.theComments})
+// }
+//
 
 
 // catch 404 and forward to error handler

@@ -200,6 +200,9 @@ app.get('/ep7', function(req, res, next) {
 app.get('/ep8', function(req, res, next) {
   res.render('ep8',{title:"College Recruiting and Running"});
 });
+app.get('/ep9', function(req, res, next) {
+  res.render('ep9',{title:"Coach's Corner: Coach Agudelo"});
+});
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });

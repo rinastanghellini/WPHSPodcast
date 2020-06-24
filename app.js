@@ -203,6 +203,9 @@ app.get('/ep8', function(req, res, next) {
 app.get('/ep9', function(req, res, next) {
   res.render('ep9',{title:"Coach's Corner: Coach Agudelo"});
 });
+app.get('/ep10', function(req, res, next) {
+  res.render('ep10',{title:"Fred Gressler Invitational"});
+});
 app.get('/General', function(req, res, next) {
   res.render('General',{title:"General Suggestions"});
 });

@@ -27,7 +27,7 @@ db.once('open', function() {
 const commentController = require('./controllers/commentController')
 const profileController = require('./controllers/profileController')
 const forumPostController = require('./controllers/forumPostController')
-const quiz2Controller = require('./controllers/quiz2Controller')
+
 // Authentication
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 // here we set up authentication with passport
@@ -173,9 +173,7 @@ app.get('/', function(req, res, next) {
   res.render('index',{title:"The Run Around"});
 });
 
-app.get('/Episodes', function(req, res, next) {
-  res.render('Episodes',{title:"Episodes"});
-});
+
 app.get('/ep1', function(req, res, next) {
   res.render('ep1',{title:"Mind Over Matter"});
 });
@@ -206,27 +204,13 @@ app.get('/ep9', function(req, res, next) {
 app.get('/ep10', function(req, res, next) {
   res.render('ep10',{title:"Fred Gressler Invitational"});
 });
-app.get('/General', function(req, res, next) {
-  res.render('General',{title:"General Suggestions"});
-});
-app.get('/question', function(req, res, next) {
-  res.render('question',{title:"Submit Questions"});
-});
-app.get('/facts', function(req, res, next) {
-  res.render('facts',{title:"Submit Running Facts& Advice"});
-});
+
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });
 app.get('/Website',(req,res,next)=>{
   res.render('Website',{title:"Website"});
 })
-
-app.get('/specific',(req,res,next)=>{
-  res.render('specific',{title:"Specific Suggestions"});
-})
-
-app.get('/quiz2',quiz2Controller.getAllMovieRatings)
 
 
 app.get('/forum',forumPostController.getAllForumPosts)

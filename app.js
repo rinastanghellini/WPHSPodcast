@@ -204,7 +204,9 @@ app.get('/ep9', function(req, res, next) {
 app.get('/ep10', function(req, res, next) {
   res.render('ep10',{title:"Fred Gressler Invitational"});
 });
-
+app.get('/ep11', function(req, res, next) {
+  res.render('ep11',{title:"Coach's Corner: Coach Hidalgo"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });
@@ -212,6 +214,15 @@ app.get('/Website',(req,res,next)=>{
   res.render('Website',{title:"Website"});
 })
 
+app.get('/New', function(req, res, next) {
+  res.render('New',{title:"New"});
+});
+app.get('/Runners', function(req, res, next) {
+  res.render('Runners',{title:"Runners"});
+});
+app.get('/Podcasts', (req, res) => {
+  res.render('Podcasts',{title:"Podcasts"});
+});
 
 app.get('/forum',forumPostController.getAllForumPosts)
 
@@ -230,23 +241,6 @@ app.get('/showPostComments/:id',
         })
 
 app.post('/saveForumComment',forumPostController.saveForumComment)
-
-app.get('/New', function(req, res, next) {
-  res.render('New',{title:"New"});
-});
-
-
-
-app.get('/Runners', function(req, res, next) {
-  res.render('Runners',{title:"Runners"});
-});
-
-
-
-app.get('/Podcasts', (req, res) => {
-  res.render('Podcasts',{title:"Podcasts"});
-});
-
 
 
 // myform demo ...

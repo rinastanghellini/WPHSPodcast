@@ -207,6 +207,9 @@ app.get('/ep10', function(req, res, next) {
 app.get('/ep11', function(req, res, next) {
   res.render('ep11',{title:"Coach's Corner: Coach Hidalgo"});
 });
+app.get('/ep12', function(req, res, next) {
+  res.render('ep12',{title:"Coach Lacko, Somers, and the Lions Club"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });

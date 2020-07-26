@@ -210,6 +210,21 @@ app.get('/ep11', function(req, res, next) {
 app.get('/ep12', function(req, res, next) {
   res.render('ep12',{title:"Coach Lacko, Somers, and the Lions Club"});
 });
+app.get('/ep13', function(req, res, next) {
+  res.render('ep13',{title:"Coach Lacko, Somers, and the Lions Club"});
+});
+app.get('/ep14', function(req, res, next) {
+  res.render('ep14',{title:"Coach Lacko, Somers, and the Lions Club"});
+});
+app.get('/ep15', function(req, res, next) {
+  res.render('ep15',{title:"Coach Lacko, Somers, and the Lions Club"});
+});
+app.get('/ep16', function(req, res, next) {
+  res.render('ep16',{title:"Coach Lacko, Somers, and the Lions Club"});
+});
+app.get('/ep17', function(req, res, next) {
+  res.render('ep17',{title:"Coach Lacko, Somers, and the Lions Club"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });

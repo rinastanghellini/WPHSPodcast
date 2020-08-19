@@ -225,6 +225,9 @@ app.get('/ep16', function(req, res, next) {
 app.get('/ep17', function(req, res, next) {
   res.render('ep17',{title:"Coach Lacko, Somers, and the Lions Club"});
 });
+app.get('/ep18', function(req, res, next) {
+  res.render('ep18',{title:"Coach Lacko, Somers, and the Lions Club"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });

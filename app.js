@@ -211,22 +211,25 @@ app.get('/ep12', function(req, res, next) {
   res.render('ep12',{title:"Coach Lacko, Somers, and the Lions Club"});
 });
 app.get('/ep13', function(req, res, next) {
-  res.render('ep13',{title:"Coach Lacko, Somers, and the Lions Club"});
+  res.render('ep13',{title:"Rina's Run Around: Get to Know Me! With Abigail Roman"});
 });
 app.get('/ep14', function(req, res, next) {
-  res.render('ep14',{title:"Coach Lacko, Somers, and the Lions Club"});
+  res.render('ep14',{title:"Singudelo/Fitzleton Relays Part 1"});
 });
 app.get('/ep15', function(req, res, next) {
-  res.render('ep15',{title:"Coach Lacko, Somers, and the Lions Club"});
+  res.render('ep15',{title:"Close Up With a Hurdler!"});
 });
 app.get('/ep16', function(req, res, next) {
-  res.render('ep16',{title:"Coach Lacko, Somers, and the Lions Club"});
+  res.render('ep16',{title:"Coach's Corner: Coach Furry"});
 });
 app.get('/ep17', function(req, res, next) {
-  res.render('ep17',{title:"Coach Lacko, Somers, and the Lions Club"});
+  res.render('ep17',{title:"Singudelo Relays Part 2"});
 });
 app.get('/ep18', function(req, res, next) {
-  res.render('ep18',{title:"Coach Lacko, Somers, and the Lions Club"});
+  res.render('ep18',{title:"Coach's Corner: Coach McCormick"});
+});
+app.get('/ep19', function(req, res, next) {
+  res.render('ep19',{title:"Coach's Corner: Coach Tomici"});
 });
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});

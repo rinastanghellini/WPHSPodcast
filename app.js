@@ -231,6 +231,9 @@ app.get('/ep18', function(req, res, next) {
 app.get('/ep19', function(req, res, next) {
   res.render('ep19',{title:"Coach's Corner: Coach Tomici"});
 });
+app.get('/ep20', function(req, res, next) {
+  res.render('ep20',{title:"Coach Simmons"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });

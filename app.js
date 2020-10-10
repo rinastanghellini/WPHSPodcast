@@ -234,8 +234,8 @@ app.get('/ep19', function(req, res, next) {
 app.get('/ep20', function(req, res, next) {
   res.render('ep20',{title:"Coach Simmons"});
 });
-app.get('/ep2.1', function(req, res, next) {
-  res.render('ep2.1',{title:"Indoor Time Trials and Workouts"});
+app.get('/ep21', function(req, res, next) {
+  res.render('ep21',{title:"Indoor Time Trials and Workouts"});
 });
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});

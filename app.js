@@ -237,6 +237,15 @@ app.get('/ep20', function(req, res, next) {
 app.get('/ep21', function(req, res, next) {
   res.render('ep21',{title:"Indoor Time Trials and Workouts"});
 });
+app.get('/ep22', function(req, res, next) {
+  res.render('ep22',{title:"Indoor Time Trials and Workouts"});
+});
+app.get('/ep23', function(req, res, next) {
+  res.render('ep23',{title:"Indoor Time Trials and Workouts"});
+});
+app.get('/ep24', function(req, res, next) {
+  res.render('ep24',{title:"Indoor Time Trials and Workouts"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });

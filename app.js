@@ -238,13 +238,16 @@ app.get('/ep21', function(req, res, next) {
   res.render('ep21',{title:"Indoor Time Trials and Workouts"});
 });
 app.get('/ep22', function(req, res, next) {
-  res.render('ep22',{title:"Indoor Time Trials and Workouts"});
+  res.render('ep22',{title:"Part 1: White Plains vs. Ossining"});
 });
 app.get('/ep23', function(req, res, next) {
-  res.render('ep23',{title:"Indoor Time Trials and Workouts"});
+  res.render('ep23',{title:"Part 2: White Plains vs. Ossining with Abby"});
 });
 app.get('/ep24', function(req, res, next) {
-  res.render('ep24',{title:"Indoor Time Trials and Workouts"});
+  res.render('ep24',{title:"The Tracks of Indoor Track!"});
+});
+app.get('/ep25', function(req, res, next) {
+  res.render('ep25',{title:"The Hispanic Games and Indoor Track with Zeph"});
 });
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});

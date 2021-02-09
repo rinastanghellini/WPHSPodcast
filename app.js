@@ -249,6 +249,9 @@ app.get('/ep24', function(req, res, next) {
 app.get('/ep25', function(req, res, next) {
   res.render('ep25',{title:"The Hispanic Games and Indoor Track with Zeph"});
 });
+app.get('/ep26', function(req, res, next) {
+  res.render('ep26',{title:"Rina's First Two Indoor Meets"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });

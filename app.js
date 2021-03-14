@@ -252,6 +252,9 @@ app.get('/ep25', function(req, res, next) {
 app.get('/ep26', function(req, res, next) {
   res.render('ep26',{title:"Rina's First Two Indoor Meets"});
 });
+app.get('/ep27', function(req, res, next) {
+  res.render('ep27',{title:"Underground Meets"});
+});
 app.get('/Rina', function(req, res, next) {
   res.render('Rina',{title:"Rina Stanghellini"});
 });
